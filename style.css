@@ -380,5 +380,6 @@ body {
 }
 
 .kakao_ad_area{
-	margin-left: 25%;
+	width: 320px;
+	margin-left: 0 auto;
 }
