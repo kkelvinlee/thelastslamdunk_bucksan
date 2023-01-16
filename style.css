@@ -1,0 +1,381 @@
+body {
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+
+.file-upload {
+  background-color: #ffffff;
+  
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid 1.5px #f6f7fa;
+  background-color: #f6f7fa;
+  padding: 2% 3%;
+	
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 250;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+  	
+}
+
+.image-upload-wrap {
+  border: 4px dashed #1FB264;
+  position: relative;
+  object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #35465d;
+  background-color: #ffffff;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #1FB264;
+  border: 4px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  
+  max-height: 80%;
+  max-width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 5%;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.nav-distance {
+	padding-left: 7.7%;
+	padding-top: 2.1%;	
+}
+
+.navbar-light .navbar-brand{
+	
+	font-family: Comic Sans MS;
+	line-height: 1.68;
+	text-align: left;
+	color: #DC143C;
+	
+}
+
+.navbar-light .navbar-toggler{
+	
+	border-color: #ffffff;
+	
+}
+
+.section{
+	
+	margin-top: 100px;
+	
+}
+
+.title{
+	
+	font-family: Comic Sans MS;
+	line-height: 1.67;
+	text-align: center;
+	color: #35465d;
+	
+}
+
+.subtitle{
+	
+	font-family: Comic Sans MS;
+	line-height: 1.53;
+	text-align: center;
+	color: #35465d;
+	
+}
+
+.subtitle2{
+	
+	padding: 10%
+	font-family: Comic Sans MS;
+	font-size: 15%
+	line-height: 1.53;
+	text-align: center;
+	color: #35465d;
+	
+}
+
+
+@media screen and (max-width: 200px){
+	html {
+		font-size: 12px;
+	}
+}
+
+.youtube-link{
+	
+	font-family: Comic Sans MS;
+	line-height: 1.71;
+	text-align: center;
+	color: #f73737;
+	
+}
+.animal-label{
+	text-align: left;
+	height: 2rem;
+}
+
+.bar-container{
+    height: 2.7rem;
+}
+
+.container{
+	max-width: 720px;
+}
+
+.채치수-box{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(40,128,128, 0.2);
+}
+
+.채치수-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+	max-width: 60%;
+    border-radius: 10px;
+    background-color: rgba(0,128,128,1);
+}
+
+.정대만-box{
+	    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(0,128,0, 0.2);
+	
+}
+
+.정대만-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+	max-width: 60%;
+    background-color: rgba(0,128,0,1);
+}
+
+.신오일-box{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(128,128,0, 0.2);
+	
+}
+
+.신오일-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+	max-width: 60%;
+    background-color: rgba(128,128,0,1);
+}
+
+.송태섭-box{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(0,0,255, 0.2);
+}
+
+.송태섭-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+	max-width: 60%;
+    background-color: rgba(0,0,255,1);
+}
+
+.이한나-box{
+	    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(255,0,255, 0.2);
+	
+}
+
+.이한나-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+	max-width: 60%;
+    background-color: rgba(255,0,255,1);
+}
+
+.권준호-box{
+	    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(192,192,192, 0.2);
+	
+}
+
+.권준호-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+	max-width: 60%;
+    background-color: rgba(192,192,192,1);
+}
+
+.강백호-box{
+	    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(255,0,0, 0.2);
+	
+}
+
+.강백호-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+	max-width: 60%;
+    background-color: rgba(255,0,0,1);
+}
+
+.서태웅-box{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(0,0,128, 0.2);
+	
+}
+
+.서태웅-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+	max-width: 60%;
+    background-color: rgba(0,0,128,1);
+}
+
+.percent-text{
+	font-family: Comic Sans MS;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
